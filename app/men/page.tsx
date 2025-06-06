@@ -6,10 +6,10 @@ import { FiChevronRight } from "react-icons/fi";
 
 // Men's product categories
 const categories = [
-  { name: "Shirts", image: "/men-1.webp", count: 12 },
-  { name: "Pants", image: "/men-3.webp", count: 8 },
-  { name: "Outerwear", image: "/men-4.webp", count: 10 },
-  { name: "Accessories", image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?q=80&w=1000", count: 6 },
+  { name: "Shirts", image: "https://images.pexels.com/photos/297933/pexels-photo-297933.jpeg", count: 12 },
+  { name: "Pants", image: "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg", count: 8 },
+  { name: "Outerwear", image: "https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg", count: 10 },
+  { name: "Accessories", image: "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg", count: 6 },
 ];
 
 // Featured men's products
@@ -19,7 +19,7 @@ const featuredProducts = [
     name: "Premium Cotton Shirt",
     price: 1699,
     originalPrice: 1999,
-    image: "/men-1.webp",
+    image: "https://images.pexels.com/photos/2897531/pexels-photo-2897531.jpeg",
     rating: 4.5,
     reviewCount: 42,
   },
@@ -28,7 +28,7 @@ const featuredProducts = [
     name: "Slim Fit Chinos",
     price: 2499,
     originalPrice: null,
-    image: "/men-3.webp",
+    image: "https://images.pexels.com/photos/1300550/pexels-photo-1300550.jpeg",
     rating: 4.8,
     reviewCount: 36,
   },
@@ -37,7 +37,7 @@ const featuredProducts = [
     name: "Casual Denim Jacket",
     price: 3499,
     originalPrice: 4299,
-    image: "/men-women-1.webp",
+    image: "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg",
     rating: 4.6,
     reviewCount: 28,
   },
@@ -46,7 +46,7 @@ const featuredProducts = [
     name: "Wool Blend Sweater",
     price: 2899,
     originalPrice: null,
-    image: "/men-4.webp",
+    image: "https://images.pexels.com/photos/1496647/pexels-photo-1496647.jpeg",
     rating: 4.7,
     reviewCount: 19,
   },
@@ -55,7 +55,7 @@ const featuredProducts = [
     name: "Formal Business Shirt",
     price: 1899,
     originalPrice: null,
-    image: "https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=1000",
+    image: "https://images.pexels.com/photos/2254123/pexels-photo-2254123.jpeg",
     rating: 4.4,
     reviewCount: 31,
   },
@@ -64,7 +64,7 @@ const featuredProducts = [
     name: "Classic Fit Blazer",
     price: 4999,
     originalPrice: 5999,
-    image: "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
     rating: 4.9,
     reviewCount: 24,
   },
@@ -73,7 +73,7 @@ const featuredProducts = [
     name: "Casual T-Shirt",
     price: 899,
     originalPrice: null,
-    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg",
     rating: 4.3,
     reviewCount: 47,
   },
@@ -82,7 +82,7 @@ const featuredProducts = [
     name: "Linen Summer Shirt",
     price: 1799,
     originalPrice: 2299,
-    image: "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1192609/pexels-photo-1192609.jpeg",
     rating: 4.7,
     reviewCount: 33,
   },
@@ -94,25 +94,25 @@ const newArrivals = [
     id: "101",
     name: "Lightweight Bomber Jacket",
     price: 3299,
-    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg",
   },
   {
     id: "102",
     name: "Premium Denim Jeans",
     price: 2699,
-    image: "https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=1000",
+    image: "https://images.pexels.com/photos/52518/jeans-pants-blue-shop-52518.jpeg",
   },
   {
     id: "103",
     name: "Merino Wool Cardigan",
     price: 3499,
-    image: "/men-2.webp",
+    image: "https://images.pexels.com/photos/6764040/pexels-photo-6764040.jpeg",
   },
   {
     id: "104",
     name: "Casual Linen Shirt",
     price: 1899,
-    image: "/men-women-2.webp",
+    image: "https://images.pexels.com/photos/6764007/pexels-photo-6764007.jpeg",
   },
 ];
 
@@ -124,7 +124,7 @@ export default function MenPage() {
         {/* Hero Banner */}
         <div className="relative h-48 sm:h-64 md:h-80 overflow-hidden">
           <Image
-            src="/men-4.webp"
+            src="https://images.pexels.com/photos/1049317/pexels-photo-1049317.jpeg"
             alt="Men's Collection"
             fill
             className="object-cover object-top"

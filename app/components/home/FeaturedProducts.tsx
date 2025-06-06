@@ -11,7 +11,7 @@ const products = [
     id: "1",
     title: "Minimalist Cotton Shirt",
     price: 1499,
-    image: "/men-1.webp",
+    image: "https://images.pexels.com/photos/769733/pexels-photo-769733.jpeg",
     category: "Men",
     discount: 0,
     description: "Premium cotton shirt with a minimalist design, perfect for casual and formal occasions. Features breathable fabric and comfortable fit."
@@ -20,7 +20,7 @@ const products = [
     id: "2",
     title: "Relaxed Fit Jeans",
     price: 2499,
-    image: "/women-1.webp",
+    image: "https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg",
     category: "Women",
     discount: 15,
     description: "Stylish relaxed fit jeans made from high-quality denim. Features a comfortable waistband and durable stitching for everyday wear."
@@ -29,7 +29,7 @@ const products = [
     id: "3",
     title: "Oversized Wool Sweater",
     price: 2999,
-    image: "/men-2.webp",
+    image: "https://images.pexels.com/photos/6764040/pexels-photo-6764040.jpeg",
     category: "Men",
     discount: 0,
     description: "Warm and cozy oversized wool sweater, perfect for winter. Features a soft texture and stylish design that pairs well with any outfit."
@@ -38,7 +38,7 @@ const products = [
     id: "4",
     title: "Structured Blazer",
     price: 3999,
-    image: "/women-2.webp",
+    image: "https://images.pexels.com/photos/6311640/pexels-photo-6311640.jpeg",
     category: "Women",
     discount: 0,
     description: "Elegant structured blazer for a professional look. Features premium fabric, tailored fit, and versatile design suitable for office and events."
@@ -47,7 +47,7 @@ const products = [
     id: "5",
     title: "Slim Fit Chinos",
     price: 1999,
-    image: "/men-3.webp",
+    image: "https://images.pexels.com/photos/1300550/pexels-photo-1300550.jpeg",
     category: "Men",
     discount: 10,
     description: "Classic slim fit chinos made from stretchable cotton. Features a comfortable waistband and versatile design for both casual and semi-formal occasions."
@@ -56,7 +56,7 @@ const products = [
     id: "6",
     title: "Flowy Summer Dress",
     price: 2299,
-    image: "/women-3.webp",
+    image: "https://images.pexels.com/photos/972995/pexels-photo-972995.jpeg",
     category: "Women",
     discount: 0,
     description: "Light and breezy summer dress with a flattering silhouette. Features breathable fabric and elegant design perfect for warm weather outings."

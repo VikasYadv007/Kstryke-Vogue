@@ -82,7 +82,7 @@ export default function Hero() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="relative w-full h-full max-w-xs sm:max-w-sm md:max-w-md mx-auto">
                   <Image
-                    src="/men-women-3.webp"
+                    src="https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg"
                     alt="Fashion models wearing modern clothing"
                     fill
                     priority

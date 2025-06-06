@@ -6,10 +6,10 @@ import { FiChevronRight, FiHeart } from "react-icons/fi";
 
 // Women's product categories
 const categories = [
-  { name: "Dresses", image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=80&w=1000", count: 18 },
-  { name: "Tops", image: "https://images.unsplash.com/photo-1564257555965-35ffc85dd2fb?q=80&w=1000", count: 24 },
-  { name: "Bottoms", image: "https://images.unsplash.com/photo-1551163943-3f6a855d1153?q=80&w=1000", count: 16 },
-  { name: "Accessories", image: "https://images.unsplash.com/photo-1556760544-74068565f05c?q=80&w=1000", count: 12 },
+  { name: "Dresses", image: "https://images.pexels.com/photos/1755428/pexels-photo-1755428.jpeg", count: 18 },
+  { name: "Tops", image: "https://images.pexels.com/photos/6311475/pexels-photo-6311475.jpeg", count: 24 },
+  { name: "Bottoms", image: "https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg", count: 16 },
+  { name: "Accessories", image: "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg", count: 12 },
 ];
 
 // Trending products
@@ -19,7 +19,7 @@ const trendingProducts = [
     name: "Floral Summer Dress",
     price: 2499,
     originalPrice: 2999,
-    image: "/women-1.webp",
+    image: "https://images.pexels.com/photos/972995/pexels-photo-972995.jpeg",
     colors: ["#C9A9A6", "#E2D2C1", "#000000"],
     isFavorite: false,
   },
@@ -28,7 +28,7 @@ const trendingProducts = [
     name: "Casual Blouse",
     price: 1299,
     originalPrice: null,
-    image: "https://images.unsplash.com/photo-1564257555965-35ffc85dd2fb?q=80&w=1000",
+    image: "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg",
     colors: ["#FFFFFF", "#000000", "#E2D2C1"],
     isFavorite: true,
   },
@@ -37,7 +37,7 @@ const trendingProducts = [
     name: "Slim Fit Jeans",
     price: 1999,
     originalPrice: 2499,
-    image: "https://images.unsplash.com/photo-1475180098004-ca77a66827be?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg",
     colors: ["#4A5568", "#1A202C"],
     isFavorite: false,
   },
@@ -46,7 +46,7 @@ const trendingProducts = [
     name: "Designer Skirt",
     price: 1799,
     originalPrice: null,
-    image: "https://images.unsplash.com/photo-1551163943-3f6a855d1153?q=80&w=1000",
+    image: "https://images.pexels.com/photos/6765164/pexels-photo-6765164.jpeg",
     colors: ["#C9A9A6", "#000000"],
     isFavorite: false,
   },
@@ -83,7 +83,7 @@ const bestSellers = [
     id: "bs1",
     name: "Elegant Evening Dress",
     price: 4999,
-    image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg",
     rating: 4.9,
     reviewCount: 86,
   },
@@ -91,7 +91,7 @@ const bestSellers = [
     id: "bs2",
     name: "Classic White Blouse",
     price: 1499,
-    image: "https://images.unsplash.com/photo-1564257555965-35ffc85dd2fb?q=80&w=1000",
+    image: "https://images.pexels.com/photos/6311640/pexels-photo-6311640.jpeg",
     rating: 4.7,
     reviewCount: 124,
   },
@@ -99,7 +99,7 @@ const bestSellers = [
     id: "bs3",
     name: "Premium Denim Jeans",
     price: 2799,
-    image: "https://images.unsplash.com/photo-1475180098004-ca77a66827be?q=80&w=1000",
+    image: "https://images.pexels.com/photos/2343661/pexels-photo-2343661.jpeg",
     rating: 4.8,
     reviewCount: 95,
   },
@@ -107,7 +107,7 @@ const bestSellers = [
     id: "bs4",
     name: "Summer Floral Dress",
     price: 2299,
-    image: "/women-1.webp",
+    image: "https://images.pexels.com/photos/6765028/pexels-photo-6765028.jpeg",
     rating: 4.6,
     reviewCount: 78,
   },
@@ -115,7 +115,7 @@ const bestSellers = [
     id: "bs5",
     name: "Casual Cardigan",
     price: 1899,
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1000",
+    image: "https://images.pexels.com/photos/6764031/pexels-photo-6764031.jpeg",
     rating: 4.5,
     reviewCount: 62,
   },
@@ -123,7 +123,7 @@ const bestSellers = [
     id: "bs6",
     name: "Designer Handbag",
     price: 3999,
-    image: "https://images.unsplash.com/photo-1556760544-74068565f05c?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg",
     rating: 4.9,
     reviewCount: 47,
   },
@@ -137,7 +137,7 @@ export default function WomenPage() {
         {/* Hero Banner */}
         <div className="relative h-48 sm:h-64 md:h-80 overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1000"
+            src="https://images.pexels.com/photos/5709661/pexels-photo-5709661.jpeg"
             alt="Women's Collection"
             fill
             className="object-cover"

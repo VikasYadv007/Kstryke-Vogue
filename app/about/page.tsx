@@ -8,25 +8,25 @@ const teamMembers = [
   {
     name: "Rajiv Sharma",
     role: "Founder & CEO",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000",
+    image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
     bio: "With over 15 years of experience in fashion retail, Rajiv founded Kstryke Vogue with a vision to blend traditional Indian craftsmanship with modern designs.",
   },
   {
     name: "Priya Patel",
     role: "Creative Director",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
     bio: "Priya leads our design team with her innovative approach and keen eye for emerging fashion trends, ensuring each collection tells a unique story.",
   },
   {
     name: "Arjun Mehta",
     role: "Head of Operations",
-    image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=1000",
+    image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
     bio: "Arjun ensures seamless operations from production to delivery, maintaining our commitment to quality and sustainability at every step.",
   },
   {
     name: "Neha Kapoor",
     role: "Marketing Director",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1000",
+    image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
     bio: "Neha crafts our brand story and connects with our community, bringing our vision and values to customers across India and beyond.",
   },
 ];
