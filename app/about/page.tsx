@@ -206,7 +206,7 @@ export default function AboutPage() {
           <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 text-center">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3">Join Our Journey</h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-2xl mx-auto mb-6">
-              We're always looking for talented individuals who share our passion for fashion and our values. Check out our current openings or follow us on social media to stay updated.
+              We&apos;re always looking for talented individuals who share our passion for fashion and our values. Check out our current openings or follow us on social media to stay updated.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <button className="bg-black text-white text-xs sm:text-sm px-4 py-2 rounded-md hover:bg-gray-800 transition-colors">

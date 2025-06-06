@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { FiShoppingBag, FiHeart } from "react-icons/fi";
 
@@ -51,10 +52,11 @@ export default function Card({
             <div className="w-full h-full flex items-center justify-center">
               {/* Product image or color block */}
               <div className="w-full h-full relative">
-                <img 
+                <Image 
                   src={image} 
                   alt={title}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
                 
                 {/* Product title overlay */}
