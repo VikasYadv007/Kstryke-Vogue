@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kstryke Vogue - Modern Fashion Website
+
+A visually appealing and modern interactive UI website built with React and Next.js, designed to be deployed on Vercel. The website follows a clean, minimalist aesthetic with smooth animations, responsive layout, and intuitive navigation.
+
+## Features
+
+- **Responsive Design**: Fully optimized for both desktop and mobile devices
+- **Modern UI Components**: Cards, modals, tabbed views, and dynamic content rendering
+- **Smooth Animations**: Using Framer Motion for engaging user interactions
+- **Tailwind CSS**: For modern, maintainable styling
+- **Next.js**: For server-side rendering and optimal performance
+
+## Key Components
+
+- Responsive header with hamburger menu on mobile
+- Hero section with call-to-action and background animation
+- Dynamic product cards with hover effects
+- Modal pop-ups for quick product views
+- Tabbed content areas for organized information display
+- Newsletter subscription form
+- Responsive footer with social media links
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 16.8 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/kstrykevogue.git
+cd kstrykevogue
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment on Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The easiest way to deploy this application is to use the [Vercel Platform](https://vercel.com/new).
 
-## Learn More
+1. Push your code to a GitHub repository.
+2. Import the project into Vercel.
+3. Vercel will detect that you're using Next.js and set up the build configuration for you.
+4. Your application will be deployed and available at a Vercel URL.
 
-To learn more about Next.js, take a look at the following resources:
+## Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create a `.env.local` file in the root directory and add any environment variables:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+NEXT_PUBLIC_API_URL=your_api_url
+```
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+kstrykevogue/
+├── app/
+│   ├── components/
+│   │   ├── home/
+│   │   │   ├── Hero.tsx
+│   │   │   ├── FeaturedProducts.tsx
+│   │   │   ├── Features.tsx
+│   │   │   └── Newsletter.tsx
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   └── Footer.tsx
+│   │   └── ui/
+│   │       ├── Button.tsx
+│   │       ├── Card.tsx
+│   │       ├── Modal.tsx
+│   │       └── Tabs.tsx
+│   ├── lib/
+│   ├── types/
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── globals.css
+├── public/
+│   └── images/
+├── vercel.json
+├── package.json
+└── README.md
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Icons](https://react-icons.github.io/react-icons/)
