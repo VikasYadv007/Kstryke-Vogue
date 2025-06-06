@@ -14,7 +14,7 @@ export default function Contact() {
                 Contact Us
               </h1>
               <p className="mt-3 max-w-2xl mx-auto text-sm md:text-base text-gray-600">
-                We'd love to hear from you. Get in touch with our team.
+                We&apos;d love to hear from you. Get in touch with our team.
               </p>
             </div>
 

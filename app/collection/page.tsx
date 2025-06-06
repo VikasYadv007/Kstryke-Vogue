@@ -1,7 +1,6 @@
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import Image from "next/image";
-import Link from "next/link";
 import { FiFilter, FiChevronDown } from "react-icons/fi";
 
 // Collection categories

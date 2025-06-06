@@ -145,7 +145,7 @@ export default function WomenPage() {
           />
           <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center px-4">
             <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
-              Women's Collection
+              Women&apos;s Collection
             </h1>
             <p className="text-gray-200 text-xs sm:text-sm md:text-base max-w-md">
               Elegant and stylish clothing for the modern woman

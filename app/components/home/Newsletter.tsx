@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FiArrowRight, FiCheck } from "react-icons/fi";
 
 export default function Newsletter() {
   const [email, setEmail] = useState("");
@@ -49,7 +48,7 @@ export default function Newsletter() {
           >
             {submitted ? (
               <div className="bg-green-100 text-green-800 px-3 py-2 rounded-md text-xs sm:text-sm">
-                Thank you for subscribing! We'll be in touch soon.
+                Thank you for subscribing! We&apos;ll be in touch soon.
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="sm:flex sm:max-w-md mx-auto">

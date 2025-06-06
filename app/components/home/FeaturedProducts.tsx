@@ -99,7 +99,7 @@ export default function FeaturedProducts() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mt-2 max-w-2xl mx-auto text-xs sm:text-sm text-gray-600"
           >
-            Discover our handpicked selection of this season's most stylish pieces.
+            Discover our handpicked selection of this season&apos;s most stylish pieces.
           </motion.p>
         </div>
 

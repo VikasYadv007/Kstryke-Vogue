@@ -35,7 +35,7 @@ const tabContent = [
       <div className="space-y-4 text-gray-800 bg-white p-4 rounded-lg">
         <h3 className="text-lg font-medium text-gray-900">Eco-Friendly Materials</h3>
         <p className="text-gray-600">
-          We're committed to reducing our environmental footprint. Our products are made from
+          We&apos;re committed to reducing our environmental footprint. Our products are made from
           sustainable materials including organic cotton, recycled polyester, and natural dyes.
           We work with suppliers who share our vision for a greener fashion industry.
         </p>

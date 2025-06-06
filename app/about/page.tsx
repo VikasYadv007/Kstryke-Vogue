@@ -184,16 +184,16 @@ export default function AboutPage() {
                 <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3">Our Commitment</h2>
                 <div className="space-y-3 text-xs sm:text-sm text-gray-300">
                   <p>
-                    At Kstryke Vogue, sustainability isn't just a buzzword—it's integrated into our business model. We carefully select our materials, prioritizing organic and recycled fabrics whenever possible.
+                    At Kstryke Vogue, sustainability isn&apos;t just a buzzword—it&apos;s integrated into our business model. We carefully select our materials, prioritizing organic and recycled fabrics whenever possible.
                   </p>
                   <p>
                     We work closely with local artisans and manufacturers, ensuring fair wages and safe working conditions. Our production processes are designed to minimize waste and reduce our environmental footprint.
                   </p>
                   <p>
-                    We're proud to be transparent about our journey toward more sustainable practices. While we're not perfect, we're committed to continuous improvement and innovation in this space.
+                    We&apos;re proud to be transparent about our journey toward more sustainable practices. While we&apos;re not perfect, we&apos;re committed to continuous improvement and innovation in this space.
                   </p>
                   <p>
-                    By choosing Kstryke Vogue, you're supporting a brand that values people and planet alongside profit—a philosophy we believe is essential for the future of fashion.
+                    By choosing Kstryke Vogue, you&apos;re supporting a brand that values people and planet alongside profit—a philosophy we believe is essential for the future of fashion.
                   </p>
                 </div>
               </div>

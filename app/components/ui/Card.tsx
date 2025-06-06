@@ -1,13 +1,10 @@
 "use client";
 
-import { ReactNode } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FiShoppingBag, FiHeart } from "react-icons/fi";
 
 interface CardProps {
-  id: string;
   title: string;
   price: number;
   image: string;
@@ -17,7 +14,6 @@ interface CardProps {
 }
 
 export default function Card({
-  id,
   title,
   price,
   image,

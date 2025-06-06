@@ -132,10 +132,10 @@ export default function MenPage() {
           />
           <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-4">
             <h1 className="text-white text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
-              Men's Collection
+              Men&apos;s Collection
             </h1>
             <p className="text-gray-200 text-xs sm:text-sm md:text-base max-w-md">
-              Discover our premium selection of men's clothing designed for style and comfort
+              Discover our premium selection of men&apos;s clothing designed for style and comfort
             </p>
           </div>
         </div>
@@ -284,7 +284,7 @@ export default function MenPage() {
                 />
                 <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center p-4">
                   <h2 className="text-white text-xl sm:text-2xl md:text-3xl font-bold mb-2">
-                    Men's Style Guide
+                    Men&apos;s Style Guide
                   </h2>
                   <p className="text-gray-200 text-xs sm:text-sm max-w-md mb-4">
                     Discover the latest trends and styling tips for the modern man
